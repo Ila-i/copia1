@@ -1,5 +1,5 @@
-from sqlalchemy import create_engine , engine
+from sqlalchemy import create_engine
 
-DB_PATH = r"C:\Users\Utente\Desktop\FARMA_LINE2.db"
+DB_PATH = r"C:\Users\ilari\Desktop\FARMALINE_1.db"
 engine = create_engine(f"sqlite:///{DB_PATH}")
 connection = engine.connect()

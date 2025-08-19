@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="687e12ae-2a07-4650-9e4f-85933ff285c1" name="Changes" comment="tante modifiche">
+    <list default="true" id="687e12ae-2a07-4650-9e4f-85933ff285c1" name="Changes" comment="aggiunto return su associazione tessera a db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classi/oggetti/classe_ordine.py" beforeDir="false" afterPath="$PROJECT_DIR$/classi/oggetti/classe_ordine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classi/oggetti/classe_ricetta.py" beforeDir="false" afterPath="$PROJECT_DIR$/classi/oggetti/classe_ricetta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classi/persone/classe_persona.py" beforeDir="false" afterPath="$PROJECT_DIR$/classi/persone/classe_persona.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/homepage/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_creation/iscrizione.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_creation/iscrizione.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
     &quot;Python.carrello.executor&quot;: &quot;Run&quot;,
     &quot;Python.classe_persona.executor&quot;: &quot;Run&quot;,
     &quot;Python.classe_tessera_sanitaria.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.crea_ricetta.executor&quot;: &quot;Run&quot;,
     &quot;Python.gestione_magazzino.executor&quot;: &quot;Run&quot;,
     &quot;Python.iscrizione.executor&quot;: &quot;Run&quot;,
     &quot;Python.iscrizioni.executor&quot;: &quot;Run&quot;,
@@ -77,7 +78,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utente/Desktop/Farma_line - Copia3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ilari/PycharmProjects/Farma_line_Clone_test&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -435,7 +436,95 @@
       <option name="project" value="LOCAL" />
       <updated>1755105313493</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="tante modifiche">
+      <option name="closed" value="true" />
+      <created>1755165313943</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1755165313943</updated>
+    </task>
+    <task id="LOCAL-00040" summary="tante modifiche">
+      <option name="closed" value="true" />
+      <created>1755168360329</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1755168360329</updated>
+    </task>
+    <task id="LOCAL-00041" summary="tante modifiche">
+      <option name="closed" value="true" />
+      <created>1755194119615</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1755194119615</updated>
+    </task>
+    <task id="LOCAL-00042" summary="tante modifiche">
+      <option name="closed" value="true" />
+      <created>1755351758855</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1755351758856</updated>
+    </task>
+    <task id="LOCAL-00043" summary="nuovo carrello">
+      <option name="closed" value="true" />
+      <created>1755443741604</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1755443741604</updated>
+    </task>
+    <task id="LOCAL-00044" summary="nuovo carrello">
+      <option name="closed" value="true" />
+      <created>1755507443963</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1755507443963</updated>
+    </task>
+    <task id="LOCAL-00045" summary="aggiunta ordine, e ricetta">
+      <option name="closed" value="true" />
+      <created>1755593639894</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1755593639894</updated>
+    </task>
+    <task id="LOCAL-00046" summary="aggiunta ordine, e ricetta">
+      <option name="closed" value="true" />
+      <created>1755599170729</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1755599170729</updated>
+    </task>
+    <task id="LOCAL-00047" summary="aggiunto return su associazione tessera a db">
+      <option name="closed" value="true" />
+      <created>1755600530111</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1755600530111</updated>
+    </task>
+    <task id="LOCAL-00048" summary="aggiunto return su associazione tessera a db">
+      <option name="closed" value="true" />
+      <created>1755600763942</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1755600763942</updated>
+    </task>
+    <task id="LOCAL-00049" summary="aggiunto return su associazione tessera a db">
+      <option name="closed" value="true" />
+      <created>1755600970503</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1755600970503</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,9 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aggiunta framacista correzione matricola" />
-    <MESSAGE value="trasformato il metodo controllo in funzione controlla &#10;realizzati i metodi iscriversi per le classi cliente e farmacista&#10;realizzati imetodi associazione tessera per tessera sanitaria e tesserino professionale&#10;relizzato il metodo associazione profilo per associare profilo utente" />
-    <MESSAGE value="main ciclico" />
     <MESSAGE value="non è stato modificato niente" />
     <MESSAGE value="creazione funzione accesso" />
     <MESSAGE value="modifiche su iscrizione spostamento sezione codice creazione profilo" />
@@ -478,7 +564,10 @@
     <MESSAGE value="fine cliente" />
     <MESSAGE value="verifica ordine" />
     <MESSAGE value="tante modifiche" />
-    <option name="LAST_COMMIT_MESSAGE" value="tante modifiche" />
+    <MESSAGE value="nuovo carrello" />
+    <MESSAGE value="aggiunta ordine, e ricetta" />
+    <MESSAGE value="aggiunto return su associazione tessera a db" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto return su associazione tessera a db" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Farma_line$iscrizione.coverage" NAME="iscrizione Coverage Results" MODIFIED="1753883589561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/profile_creation" />
